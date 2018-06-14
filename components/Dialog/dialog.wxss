@@ -1,0 +1,43 @@
+/* components/dialog/dialos.wxss */
+.dialog{
+  width: 100%;
+  z-index: 20;
+  overflow: hidden;
+}
+.header{
+  width: 100%;
+  color: #ff6600;
+  text-align: center;
+}
+.content{
+  position: fixed;
+  z-index: 5000;
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  top: 20%;
+  left: 10%;
+}
+/*蒙版  */
+.mask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 1000;
+}
+.title{
+  text-align: center;
+  margin-top: 10px;
+  color: #ff0066;
+}
+.content-text{
+  text-align: center;
+  color: #dd22ff;
+  margin-top: 20px;
+}
+.btn-view{
+  display: flex;
+  margin-top: 50px;
+}

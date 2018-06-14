@@ -1,0 +1,13 @@
+<!--components/dialog/dialos.wxml-->
+<view class='dialog' hidden="{{!isShow}}">
+<view class='mask'></view>
+  <view class='content'>
+      <view class='title'>{{title}}</view>
+      <view class='content-text'>{{content}}</view>
+      <view class='btn-view'>
+        <button type='primary' plain size='mini' catchtap='closeDialog'>{{cancleText}}</button>
+        <button type='primary' size='mini' >{{confirmText}}</button>
+      </view>
+  </view>
+  
+</view>

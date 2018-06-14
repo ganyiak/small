@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<!--view div  -->
+<view class='menu-page'>
+<view class='accredit-view' hidden='{{hasUserInfo}}'>
+  <button open-type="getUserInfo" type='primary' class='getUserInfo' lang="zh_CN" bindgetuserinfo="getUserInfo">授权登录</button>
+</view>
+<scroll-view scroll-y class='scroll-area'>
+  <view class='user-content'>
+    <view class='user-head'>
+        <image class='head' src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class='user-name'>
+      <view class='name'>{{userInfo.nickName}}</view>
+      <view class='exprice'>
+        <text class='grade'>LV.11</text>
+        <view ></view>
+      </view>
+    </view>
+    <view class='degree-content'>
+      <image class='degree-icon' src='../../resource/images/degree-icon.png'></image>
+      <text class='degree-grade'>幼儿园</text>
+    </view>
+  </view>
+  <!--幼儿园  小学  初中 高中 大学 研究生 博士  -->
+  <view class='school-content'>
+    <view class='school-item' data-page='{{index}}' bindtap='selectSchool' wx:for='{{schoolList}}' style='background:{{item.linear}}' wx:key="{{index}}">
+    <text>{{item.name}}</text>
+    </view>
+  </view>
+</scroll-view>
+  
+</view>

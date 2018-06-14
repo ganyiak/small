@@ -1,0 +1,26 @@
+<!--pages/primary/primary.wxml-->
+<view class='primary-page'>
+    <scroll-view class='primary-scroll' scroll-y>
+        <view class='primary-content'>
+            <view class='subject1' bindtap='exam' data-sub='primaryCn'>
+                <image src='./assets/image/primary-logo.jpg' class='primary-logo'></image>
+                <view class='chinese'>
+                    <view class='subjects'>2017-2018学年度小升初语文试卷（全国卷）</view>
+                    <view class='subjects'>考试时间：今天</view>
+                    <view class='subjects'>时间：6分钟（）</view>
+                    <view class='subjects'>满分：99分（少一分是怕你骄傲）</view>
+                </view>
+            </view>
+            
+            <view class='subject2' bindtap='exam' data-sub='math'>
+                <image src='./assets/image/primary-logo1.jpg' class='primary-logo1'></image>
+                <view class='math'>
+                    <view class='subjects'>2017-2018学年度小升初数学试卷（全国卷）</view>
+                    <view class='subjects'>考试时间：今天</view>
+                    <view class='subjects'>时间：6分钟（）</view>
+                    <view class='subjects'>满分：99分（少一分是怕你骄傲）</view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

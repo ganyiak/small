@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/nursery/nursery",
+    "pages/primary/primary",
+    "pages/primaryCn/primaryCn"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#48077b",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,10 @@
+<!--pages/nursery/nursery.wxml-->
+<view class='nursery-page'>
+  <scroll-view class='nursery-scroll'>
+    <!--顶部循环熊出没动画  -->
+     <view animation="{{animationData1}}" class='logo-wrap'> 
+        <image src='./assest/image/logo.jpg' class='logo-content'></image>
+     </view> 
+     
+  </scroll-view>
+</view>

@@ -1,0 +1,61 @@
+/* pages/primary/primary.wxss */
+page{
+  height: 100%;
+  padding-top: 16%;
+  overflow: hidden;
+  background: #843e1c;
+}
+.primary-page{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  /* background: linear-gradient(#48077b,#791baf); */
+}
+.primary-content{
+  position: relative;
+}
+.primary-logo{
+  width: 86%;
+  position: relative;
+  left: 7%;
+  top: 10%;
+}
+.primary-logo1{
+  width: 86%;
+  position: relative;
+  left: 7%;
+}
+image{
+  border-radius: 6%;
+}
+.subject1,subject2{
+  position: relative;
+  height: 100%;
+}
+.chinese{
+  width: 86%;
+  position: absolute;
+  top: 0;
+  height:98%; 
+  background: rgba(204,204,204,0.5);
+  left: 7%;
+  border-radius: 6%;
+  text-align: center;
+}
+.math{
+  width:86%;
+   height:49%; 
+  position:absolute;
+  background: rgba(204,204,204,0.5);
+  left:7%;
+  border-radius:6%;
+  top:50%;
+  text-align: center;
+}
+.subjects{
+  font-size: 20px;
+  color: #000;
+  margin-top: 2%;
+  font-weight: bold;
+  display: block；
+}

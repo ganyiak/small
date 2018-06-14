@@ -1,0 +1,20 @@
+<!--pages/primaryCn/primaryCn.wxml-->
+<view class='primaryCn-page'>
+    <!--顶部信息  -->
+    <view class='head-content'>
+      <view class='welcomeText'>{{showTime}}</view>
+      <!--信息部分，剩余时间  -->
+      <view class='residue-time'>{{testTime}}</view>
+      <!--进度条部分  -->
+      <view class='time-progress'>
+        <view class='progress' style='width:{{proWidth}}'></view>
+      </view>
+    </view>
+    <!--试题部分  -->
+    <view class='question-content'   animation="{{animationData1}}">
+        <view class='question-title'>{{question.question}}</view>
+        <view wx:for='{{question.answer}}' bindtap='selectAnswer' data-true='{{question.answer[index].isTrue}}' animation="{{animationData2}}" class='answer' wx:key='{{index}}' hover-class='answer-hover'>
+            {{item.a}}
+        </view>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "欢迎红领巾少年归来",
+  "navigationBarBackgroundColor": "#843e1c",
+  "usingComponents": {
+    "component-tag-name": "../../components/Dialog/dialog"
+  }
+}
